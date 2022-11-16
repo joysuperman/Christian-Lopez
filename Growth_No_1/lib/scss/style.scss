@@ -1,0 +1,43 @@
+@import '_variables';
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1170px !important;
+  }
+}
+// Banner
+.banner_section {
+  @extend %banner-content;
+  .man_image {
+    img {
+      max-width: 42%;
+      position: absolute;
+      top: 12%;
+      right: 10%;
+    }
+  }
+}
+
+.tab_section {
+  @extend %tab-section;
+}
+
+.project_section {
+  background-color: $banner-color;
+  @extend %project-section;
+}
+
+.testimonial {
+  @extend %testimonial-section;
+}
+
+.client-section {
+  @extend %client-section;
+}
+.social-media {
+  @extend %social-media;
+}
+footer {
+  @extend %footer;
+}
+@import '_responsive';

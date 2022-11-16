@@ -1,0 +1,157 @@
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  .banner_section {
+    height: 85vh;
+    .banner_body {
+      text-align: center;
+      h2 {
+        font-size: 35px;
+        line-height: 25px;
+      }
+
+      .middle_content {
+        h1 {
+          font-size: 85px;
+          line-height: 85px;
+        }
+      }
+      h4 {
+        font-size: 27px;
+        line-height: 27px;
+      }
+    }
+    .man_image {
+      display: none;
+    }
+  }
+  .tab_section {
+    .container {
+      padding: 0;
+      .tab_catagory {
+        .nav-item {
+          .nav-link {
+            padding: 10px 15px 10px 15px;
+            font-size: 9px;
+          }
+        }
+      }
+      .tab-content {
+        .interview {
+          .margin-bottom_responsive {
+            margin-bottom: 55px;
+          }
+        }
+        .progress_bar {
+          .margin-bottom_responsive {
+            margin: 0 0 50px;
+          }
+        }
+        .award {
+          .margin-bottom_responsive {
+            margin-bottom: 55px;
+          }
+        }
+      }
+    }
+  }
+
+  .project_section {
+    .slider {
+      left: 0 !important;
+      padding: 0px 15px;
+    }
+  }
+
+  .client-section {
+    .tab-content {
+      img {
+        float: right;
+      }
+    }
+  }
+  footer {
+    .margin_bottom_responsive {
+      margin-bottom: 15px;
+    }
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+  .banner_section {
+    height: 85vh;
+    .banner_body {
+      text-align: center;
+    }
+    .man_image {
+      display: none;
+    }
+  }
+  .tab_section {
+    .tab_catagory {
+      .nav-item {
+        .nav-link {
+          padding: 10px 15px 10px 15px;
+        }
+      }
+    }
+    .tab-content {
+      .interview {
+        .margin-bottom_responsive {
+          margin-bottom: 55px;
+        }
+      }
+      .award {
+        .margin-bottom_responsive {
+          margin-bottom: 55px;
+        }
+      }
+    }
+  }
+  .project_section {
+    .slider {
+      left: 0 !important;
+      padding: 0px 15px;
+    }
+  }
+}
+@media only screen and (min-width: 960px) and (max-width: 1199px) {
+  .banner_section {
+    .banner_body {
+      text-align: center;
+    }
+    .man_image {
+      display: none;
+    }
+  }
+
+  .tab_section {
+    .tab_catagory {
+      .nav-item {
+        .nav-link {
+          padding: 17px 20px 17px 20px;
+        }
+      }
+    }
+    .tab-content {
+      .interview {
+        .margin-bottom_responsive {
+          margin-bottom: 55px;
+        }
+      }
+      .award {
+        .margin-bottom_responsive {
+          margin-bottom: 55px;
+        }
+      }
+    }
+  }
+  .project_section {
+    .slider {
+      left: 0 !important;
+      padding: 0px 15px;
+    }
+  }
+}
+
+// @media only screen and (min-width: 1200px) {
+
+// }
